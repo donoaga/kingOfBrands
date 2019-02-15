@@ -464,7 +464,7 @@ footer .contactsBlock {
 /**********************THE MAIN SEARCH BAR*********************/
 #checkingBar {
     height: 50px;
-    width: 100%;
+    width: 90%;
     padding-bottom: 50px;
 }
 
@@ -489,11 +489,13 @@ footer .contactsBlock {
 /*START OF PRODUCTS BLOCK*/
 
 .products-row{
-    width: 95%;
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 2.5%;
     margin-bottom: 30px;
+    margin: 0 5% 50px 5%;
 }
 
 div .productBlock {
@@ -505,6 +507,7 @@ div .productBlock {
     transition: all 0.5s;
     font-size: 1.5em;
     font-weight: bold;
+    margin: 20px 0;
 }
 div .productBlock:hover,
 div .productBlock:focus {
@@ -516,7 +519,13 @@ div .productBlock:focus {
     width: 100%;
     margin-top: 10px;
 }
-    
+
+.expiredPrice{
+  font-size: 0.5em;
+  text-decoration: line-through;
+  color: grey;
+}
+
 .priceSection {
     letter-spacing: 2px;
     margin: 5px 0;
@@ -899,17 +908,13 @@ div .productBlock:focus {
     }
 
     div .productBlock {
-        text-align: right;
-        vertical-align: center;
         width: 100%;
         padding: 0;
         font-size: 1em;
-        margin-bottom: 10px;
-        text-align: center;
+        display: block;
     }
     .titleSection{
-      margin-right: 10px;
-      padding-top: 20px;
+     margin-top: 3%;
       float: right;
       width: 35%;
     }
@@ -919,15 +924,16 @@ div .productBlock:focus {
         width: 60%;
         margin-top: 0;
     }
-    .priceSection {
+    .price-of-product{
+      margin-top: 3%;
       float: right;
-        width: 35%;
-    }  
+      width: 40%;
+      font-size: 0.7em;
+    }
     .buy-button {
-        float: right;
-        margin-right: 5%; 
-        height: 25px;
-        width: 30%;
+      margin-top: 3%;
+      font-size: 0.6em;
+      width: 30%;
     }
       
 /**********************the end of products styles of page***************************/
@@ -1005,12 +1011,9 @@ div .productBlock:focus {
     /*****************************************************************The END OF ABOUT-US PAGE**********************/
     
     /*****************************************************************The START OF contact-US PAGE**********************/
-    /*****************************************************************The START OF contact-US PAGE**********************/
     .contacts-links {
       height: 400px;
     }
-     .contacts-links h1{
-     }
     .contacts-file-row{
       flex-direction: column;
       width: 100%;
@@ -1021,8 +1024,6 @@ div .productBlock:focus {
       margin: 10px 10%
     }
 
-
-    /*****************************************************************The END OF contact-US PAGE**********************/
 
     /*****************************************************************The END OF contact-US PAGE**********************/
 }
