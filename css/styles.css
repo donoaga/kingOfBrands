@@ -499,14 +499,12 @@ footer .contactsBlock {
 }
 
 div .productBlock {
-    border:1px solid #000;
+    border:0.5px solid #6c6c6c;
     width: 20%;
     padding-bottom: 20px;
     text-align: center;
-    box-shadow: -10px 10px 10px rgba(0, 0, 0, .5);
     transition: all 0.5s;
     font-size: 1.5em;
-    font-weight: bold;
     margin: 20px 0;
 }
 div .productBlock:hover,
@@ -529,15 +527,16 @@ div .productBlock:focus {
 .priceSection {
     letter-spacing: 2px;
     margin: 5px 0;
+    color: red;
 }
     
 .buy-button {
     height: 30px;
     width: 40%;
     padding: 5px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
     transition: all 0.5s;
-    background-color: red;
+    background-color: green;
+     border:0.5px solid #6c6c6c;
     color: #fff;
 }
     
@@ -915,7 +914,7 @@ div .productBlock:focus {
         display: block;
     }
     .titleSection{
-     margin-top: 3%;
+      margin-top: 3%;
       float: right;
       width: 35%;
       overflow: hidden;
