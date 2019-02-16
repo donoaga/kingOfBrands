@@ -660,7 +660,7 @@ div .productBlock:focus {
 
 .about-us-page {
   width: 90%;
-  margin: 50px 5%;
+  margin: 50px 5% 0 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -669,12 +669,14 @@ div .productBlock:focus {
 }
 .about-us-page h1 {
   margin:0 auto 30px auto;
-  width: 30%;
+  width: 5em;
   border-bottom: 3px solid red;
 }
 .about-us-page span {
+  color: #6c6c6c;
   font-size: 0.8em;
   letter-spacing: 1px;
+  font-weight: lighter;
 }
 
 /*****************************************************************The END OF ABOUT-US PAGE**********************/
@@ -877,7 +879,6 @@ div .productBlock:focus {
     /*****************************************************************the start of styles of products page**********************/
     /**********************THE MAIN SEARCH BAR*********************/
     main#catalog-products{
-      margin-top: 50px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -917,6 +918,7 @@ div .productBlock:focus {
      margin-top: 3%;
       float: right;
       width: 35%;
+      overflow: hidden;
     }
     .productBlock div .image-section {
         float: left;
@@ -975,17 +977,21 @@ div .productBlock:focus {
       width: 100%;
     }
 
-    .description-buy-block .product-title{
+    .description-buy-block .product-title {
       font-size: 2.5em;
       padding: 5px;
     }
+    .desc-grey-text {
+      width: 80%;
+      margin: 0 10%;
+    }
 
-    .description-buy-block .desc-grey-text{
+    .description-buy-block .desc-grey-text {
       color: #6c6c6c;
       padding: 10px;
     }
 
-    .check-colors-block{
+    .check-colors-block {
       width: 50%;
       height: 50px;
       margin: 0 25%;
@@ -1004,9 +1010,7 @@ div .productBlock:focus {
     /*****************************THE END OF ONE-PRODUCT PAGE DESIGN*****************************/
 
     /*****************************************************************The START OF ABOUT-US PAGE**********************/
-    .about-us-page h1 {
-      width: 50%;
-    }
+    
 
     /*****************************************************************The END OF ABOUT-US PAGE**********************/
     
